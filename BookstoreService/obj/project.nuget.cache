@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "syxNTCJ5QNc=",
+  "dgSpecHash": "lbVdL3Y7ZZo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\BookstoreService\\BookstoreService.csproj",
+  "projectFilePath": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BookstoreService\\BookstoreService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nemanja\\.nuget\\packages\\microsoft.servicefabric\\10.1.2493\\microsoft.servicefabric.10.1.2493.nupkg.sha512",
     "C:\\Users\\Nemanja\\.nuget\\packages\\microsoft.servicefabric.data\\7.1.2493\\microsoft.servicefabric.data.7.1.2493.nupkg.sha512",

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7DF392E3-5E26-4FDD-928D-9602F4ACCBC5}|TransactionCoordinator\\TransactionCoordinator.csproj|c:\\users\\nemanja\\source\\repos\\cloudvezbe\\transactioncoordinator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF392E3-5E26-4FDD-928D-9602F4ACCBC5}|TransactionCoordinator\\TransactionCoordinator.csproj|solutionrelative:transactioncoordinator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{204CD415-FFB6-40D2-B1C8-4EAD86E1D348}|Validation\\Validation.csproj|c:\\users\\nemanja\\source\\repos\\cloudvezbe\\validation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{204CD415-FFB6-40D2-B1C8-4EAD86E1D348}|Validation\\Validation.csproj|solutionrelative:validation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -44,6 +48,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\TransactionCoordinator\\Program.cs",
+              "RelativeDocumentMoniker": "TransactionCoordinator\\Program.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\TransactionCoordinator\\Program.cs",
+              "RelativeToolTip": "TransactionCoordinator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:02:54.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Validation\\Program.cs",
               "RelativeDocumentMoniker": "Validation\\Program.cs",
               "ToolTip": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Validation\\Program.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IValidation.cs",
               "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\IValidation.cs",
               "RelativeDocumentMoniker": "Communication\\IValidation.cs",
@@ -68,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ITransaction.cs",
               "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\ITransaction.cs",
               "RelativeDocumentMoniker": "Communication\\ITransaction.cs",
@@ -81,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IBank.cs",
               "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\IBank.cs",
               "RelativeDocumentMoniker": "Communication\\IBank.cs",
@@ -94,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IBookstore.cs",
               "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\IBookstore.cs",
               "RelativeDocumentMoniker": "Communication\\IBookstore.cs",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BookstoreService.cs",
               "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\BookstoreService\\BookstoreService.cs",
               "RelativeDocumentMoniker": "BookstoreService\\BookstoreService.cs",
@@ -120,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\BookstoreService\\Program.cs",
               "RelativeDocumentMoniker": "BookstoreService\\Program.cs",

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Communication
 {
-    public interface IBank : IService
+    public interface IBank : IService, ITransaction
     {
         Task<List<string>> ListClients();
 

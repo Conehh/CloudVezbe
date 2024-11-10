@@ -8,11 +8,11 @@ namespace Communication
 {
     public interface ITransaction
     {
-        Task<bool> Prepare();
+        Task<bool> Prepare(object value);
 
-        Task Commit();
+        Task Commit(Microsoft.ServiceFabric.Data.ITransaction transaction);
 
-        Task Rollback();
+        Task Rollback(Microsoft.ServiceFabric.Data.ITransaction transaction);
 
     }
 }

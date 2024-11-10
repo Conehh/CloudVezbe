@@ -4,21 +4,123 @@ using System.Fabric;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using Communication;
+using Communication.Models;
+using Microsoft.ServiceFabric.Data;
 using Microsoft.ServiceFabric.Data.Collections;
 using Microsoft.ServiceFabric.Services.Communication.Runtime;
+using Microsoft.ServiceFabric.Services.Remoting.Runtime;
 using Microsoft.ServiceFabric.Services.Runtime;
-
 namespace BankService
 {
     /// <summary>
     /// An instance of this class is created for each service replica by the Service Fabric runtime.
     /// </summary>
-    internal sealed class BankService : StatefulService
+    internal sealed class BankService : StatefulService, IBank
     {
+
+        private IReliableDictionary<string, Client>? _clientDictionary;
+
         public BankService(StatefulServiceContext context)
             : base(context)
         { }
 
+        private async Task InitializeClientDictionaryAsync()
+        {
+            _clientDictionary = await StateManager.GetOrAddAsync<IReliableDictionary<string, Client>>("clientDictionary");
+        }
+
+        public async Task<string> EnlistMoneyTransfer(string userID, double amount)
+        {
+            using (var transaction = StateManager.CreateTransaction())
+            {
+                ConditionalValue<Client> client = await _clientDictionary!.TryGetValueAsync(transaction, userID);
+
+
+                if (!await Prepare(amount))
+                {
+                    return null!;
+                }
+
+
+
+                var updatedClient = client.Value;
+                updatedClient.Balance -= amount;
+
+                await _clientDictionary.TryUpdateAsync(transaction, userID, updatedClient, client.Value);
+
+                return await CompleteTransaction(transaction);
+            }
+        }
+
+        public async Task<List<string>> ListClients()
+        {
+            await InitializeClientDictionaryAsync();
+
+            var clients = new List<Client>()
+            {
+                new Client() { Id = "123", Name = "Mark", Balance = 950.23, },
+                new Client() { Id = "234", Name = "Campton", Balance = 35000.10 },
+               
+            };
+
+            using (var transaction = StateManager.CreateTransaction())
+            {
+                foreach (Client client in clients)
+                    await _clientDictionary!.AddOrUpdateAsync(transaction, client.Id!, client, (k, v) => v);
+
+                await CompleteTransaction(transaction);
+            }
+
+            var clientNames = new List<string>();
+
+            using (var transaction = StateManager.CreateTransaction())
+            {
+                var enumerator = (await _clientDictionary!.CreateEnumerableAsync(transaction)).GetAsyncEnumerator();
+
+                while (await enumerator.MoveNextAsync(CancellationToken.None))
+                {
+                    var client = enumerator.Current.Value;
+                    clientNames.Add(client.Name!);
+                }
+            }
+
+            return clientNames;
+        }
+        public async Task<bool> Prepare(object amount)
+        {
+            if (!(amount is double doubleParameter))
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        public async Task Commit(Microsoft.ServiceFabric.Data.ITransaction transaction)
+        {
+            await transaction.CommitAsync();
+        }
+
+        public async Task Rollback(Microsoft.ServiceFabric.Data.ITransaction transaction)
+        {
+             transaction.Abort();
+        }
+
+
+        public async Task<string> CompleteTransaction(Microsoft.ServiceFabric.Data.ITransaction transaction)
+        {
+            try
+            {
+                await Commit(transaction);
+                return string.Empty;
+            }
+            catch
+            {
+                await Rollback(transaction);
+                return null!;
+            }
+        }
         /// <summary>
         /// Optional override to create listeners (e.g., HTTP, Service Remoting, WCF, etc.) for this service replica to handle client or user requests.
         /// </summary>
@@ -28,41 +130,8 @@ namespace BankService
         /// <returns>A collection of listeners.</returns>
         protected override IEnumerable<ServiceReplicaListener> CreateServiceReplicaListeners()
         {
-            return new ServiceReplicaListener[0];
+            return this.CreateServiceRemotingReplicaListeners();
         }
 
-        /// <summary>
-        /// This is the main entry point for your service replica.
-        /// This method executes when this replica of your service becomes primary and has write status.
-        /// </summary>
-        /// <param name="cancellationToken">Canceled when Service Fabric needs to shut down this service replica.</param>
-        protected override async Task RunAsync(CancellationToken cancellationToken)
-        {
-            // TODO: Replace the following sample code with your own logic 
-            //       or remove this RunAsync override if it's not needed in your service.
-
-            var myDictionary = await this.StateManager.GetOrAddAsync<IReliableDictionary<string, long>>("myDictionary");
-
-            while (true)
-            {
-                cancellationToken.ThrowIfCancellationRequested();
-
-                using (var tx = this.StateManager.CreateTransaction())
-                {
-                    var result = await myDictionary.TryGetValueAsync(tx, "Counter");
-
-                    ServiceEventSource.Current.ServiceMessage(this.Context, "Current Counter Value: {0}",
-                        result.HasValue ? result.Value.ToString() : "Value does not exist.");
-
-                    await myDictionary.AddOrUpdateAsync(tx, "Counter", 0, (key, value) => ++value);
-
-                    // If an exception is thrown before calling CommitAsync, the transaction aborts, all changes are 
-                    // discarded, and nothing is saved to the secondary replicas.
-                    await tx.CommitAsync();
-                }
-
-                await Task.Delay(TimeSpan.FromSeconds(1), cancellationToken);
-            }
-        }
     }
 }

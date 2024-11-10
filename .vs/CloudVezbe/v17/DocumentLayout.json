@@ -1,38 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\",
+  "WorkspaceRootPath": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7DF392E3-5E26-4FDD-928D-9602F4ACCBC5}|TransactionCoordinator\\TransactionCoordinator.csproj|c:\\users\\nemanja\\source\\repos\\cloudvezbe\\transactioncoordinator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF392E3-5E26-4FDD-928D-9602F4ACCBC5}|TransactionCoordinator\\TransactionCoordinator.csproj|solutionrelative:transactioncoordinator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA0E79FE-B460-49E7-BF5D-1E0E84C6DE4C}|BankService\\BankService.csproj|c:\\users\\nemanja\\desktop\\cloudvezbe\\bankservice\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA0E79FE-B460-49E7-BF5D-1E0E84C6DE4C}|BankService\\BankService.csproj|solutionrelative:bankservice\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{204CD415-FFB6-40D2-B1C8-4EAD86E1D348}|Validation\\Validation.csproj|c:\\users\\nemanja\\source\\repos\\cloudvezbe\\validation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{204CD415-FFB6-40D2-B1C8-4EAD86E1D348}|Validation\\Validation.csproj|solutionrelative:validation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA0E79FE-B460-49E7-BF5D-1E0E84C6DE4C}|BankService\\BankService.csproj|c:\\users\\nemanja\\desktop\\cloudvezbe\\bankservice\\serviceeventsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA0E79FE-B460-49E7-BF5D-1E0E84C6DE4C}|BankService\\BankService.csproj|solutionrelative:bankservice\\serviceeventsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|c:\\users\\nemanja\\source\\repos\\cloudvezbe\\communication\\ivalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|solutionrelative:communication\\ivalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA0E79FE-B460-49E7-BF5D-1E0E84C6DE4C}|BankService\\BankService.csproj|c:\\users\\nemanja\\desktop\\cloudvezbe\\bankservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA0E79FE-B460-49E7-BF5D-1E0E84C6DE4C}|BankService\\BankService.csproj|solutionrelative:bankservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|c:\\users\\nemanja\\source\\repos\\cloudvezbe\\communication\\ibank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|solutionrelative:communication\\ibank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|c:\\users\\nemanja\\source\\repos\\cloudvezbe\\communication\\ibookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|solutionrelative:communication\\ibookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|c:\\users\\nemanja\\source\\repos\\cloudvezbe\\communication\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|solutionrelative:communication\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D919EC-96C7-4AF0-8C54-3DEEC41041F8}|BookstoreService\\BookstoreService.csproj|c:\\users\\nemanja\\source\\repos\\cloudvezbe\\bookstoreservice\\bookstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94D919EC-96C7-4AF0-8C54-3DEEC41041F8}|BookstoreService\\BookstoreService.csproj|c:\\users\\nemanja\\desktop\\cloudvezbe\\bookstoreservice\\bookstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D919EC-96C7-4AF0-8C54-3DEEC41041F8}|BookstoreService\\BookstoreService.csproj|solutionrelative:bookstoreservice\\bookstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D919EC-96C7-4AF0-8C54-3DEEC41041F8}|BookstoreService\\BookstoreService.csproj|c:\\users\\nemanja\\source\\repos\\cloudvezbe\\bookstoreservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94D919EC-96C7-4AF0-8C54-3DEEC41041F8}|BookstoreService\\BookstoreService.csproj|solutionrelative:bookstoreservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 241,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\TransactionCoordinator\\Program.cs",
-              "RelativeDocumentMoniker": "TransactionCoordinator\\Program.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\TransactionCoordinator\\Program.cs",
-              "RelativeToolTip": "TransactionCoordinator\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:02:54.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Validation\\Program.cs",
-              "RelativeDocumentMoniker": "Validation\\Program.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Validation\\Program.cs",
-              "RelativeToolTip": "Validation\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Title": "ServiceEventSource.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BankService\\ServiceEventSource.cs",
+              "RelativeDocumentMoniker": "BankService\\ServiceEventSource.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BankService\\ServiceEventSource.cs",
+              "RelativeToolTip": "BankService\\ServiceEventSource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:01:39.578Z",
+              "WhenOpened": "2024-11-10T19:01:41.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IValidation.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\IValidation.cs",
-              "RelativeDocumentMoniker": "Communication\\IValidation.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\IValidation.cs",
-              "RelativeToolTip": "Communication\\IValidation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABHAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BankService\\Program.cs",
+              "RelativeDocumentMoniker": "BankService\\Program.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BankService\\Program.cs",
+              "RelativeToolTip": "BankService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:59:44.658Z",
+              "WhenOpened": "2024-11-10T19:01:15.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ITransaction.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\ITransaction.cs",
-              "RelativeDocumentMoniker": "Communication\\ITransaction.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\ITransaction.cs",
-              "RelativeToolTip": "Communication\\ITransaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BankService.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BankService\\BankService.cs",
+              "RelativeDocumentMoniker": "BankService\\BankService.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BankService\\BankService.cs",
+              "RelativeToolTip": "BankService\\BankService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:44:43.508Z",
+              "WhenOpened": "2024-11-10T19:01:08.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IBank.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\IBank.cs",
-              "RelativeDocumentMoniker": "Communication\\IBank.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\IBank.cs",
-              "RelativeToolTip": "Communication\\IBank.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:44:35.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IBookstore.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\IBookstore.cs",
-              "RelativeDocumentMoniker": "Communication\\IBookstore.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\IBookstore.cs",
-              "RelativeToolTip": "Communication\\IBookstore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:44:11.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "BookstoreService.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\BookstoreService\\BookstoreService.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BookstoreService\\BookstoreService.cs",
               "RelativeDocumentMoniker": "BookstoreService\\BookstoreService.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\BookstoreService\\BookstoreService.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BookstoreService\\BookstoreService.cs",
               "RelativeToolTip": "BookstoreService\\BookstoreService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T15:43:15.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\BookstoreService\\Program.cs",
-              "RelativeDocumentMoniker": "BookstoreService\\Program.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\BookstoreService\\Program.cs",
-              "RelativeToolTip": "BookstoreService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:43:09.185Z",
               "EditorCaption": ""
             }
           ]

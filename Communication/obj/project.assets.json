@@ -783,11 +783,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\Communication.csproj",
+      "projectUniqueName": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\Communication.csproj",
       "projectName": "Communication",
-      "projectPath": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\Communication.csproj",
+      "projectPath": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\Communication.csproj",
       "packagesPath": "C:\\Users\\Nemanja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Communication\\obj\\",
+      "outputPath": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nemanja\\AppData\\Roaming\\NuGet\\NuGet.Config",

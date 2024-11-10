@@ -2,7 +2,7 @@
 
 namespace Communication
 {
-    public interface IBookstore : IService
+    public interface IBookstore : IService, ITransaction
     {
         Task<List<string>> ListAvailableItems();
 

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BankService
-build_property.ProjectDir = C:\Users\Nemanja\source\repos\CloudVezbe\BankService\
+build_property.ProjectDir = C:\Users\Nemanja\Desktop\CloudVezbe\BankService\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

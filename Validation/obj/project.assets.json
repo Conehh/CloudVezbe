@@ -719,11 +719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Validation\\Validation.csproj",
+      "projectUniqueName": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Validation\\Validation.csproj",
       "projectName": "Validation",
-      "projectPath": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Validation\\Validation.csproj",
+      "projectPath": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Validation\\Validation.csproj",
       "packagesPath": "C:\\Users\\Nemanja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nemanja\\source\\repos\\CloudVezbe\\Validation\\obj\\",
+      "outputPath": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Validation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nemanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
