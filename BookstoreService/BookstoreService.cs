@@ -18,7 +18,7 @@ namespace BookstoreService
     /// <summary>
     /// An instance of this class is created for each service replica by the Service Fabric runtime.
     /// </summary>
-    internal sealed class BookstoreService : StatefulService, IBookstore
+    internal sealed class BookstoreService : StatefulService, IBookstore, Communication.ITransaction
     {
         private IReliableDictionary<string, Book>? _bookDictionary;
         
@@ -31,13 +31,13 @@ namespace BookstoreService
             _bookDictionary = await StateManager.GetOrAddAsync<IReliableDictionary<string, Book>>("bookDictionary");
         }
 
-        public async Task<string> EnlistPurchase(string bookID, uint count)
+        public async Task<string> EnlistPurchase(string? bookID, uint? count)
         {
             using (var transaction = StateManager.CreateTransaction())
             {
                 ConditionalValue<Book> book = await _bookDictionary!.TryGetValueAsync(transaction, bookID!);
              
-                if (!await Prepare(count!))
+                if (!await Prepare(count!.Value))
                 {
                     return null!;
                 }

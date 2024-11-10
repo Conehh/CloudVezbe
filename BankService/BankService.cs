@@ -16,7 +16,7 @@ namespace BankService
     /// <summary>
     /// An instance of this class is created for each service replica by the Service Fabric runtime.
     /// </summary>
-    internal sealed class BankService : StatefulService, IBank
+    internal sealed class BankService : StatefulService, IBank, Communication.ITransaction
     {
 
         private IReliableDictionary<string, Client>? _clientDictionary;
@@ -30,14 +30,14 @@ namespace BankService
             _clientDictionary = await StateManager.GetOrAddAsync<IReliableDictionary<string, Client>>("clientDictionary");
         }
 
-        public async Task<string> EnlistMoneyTransfer(string userID, double amount)
+        public async Task<string> EnlistMoneyTransfer(string? userID, double? amount)
         {
             using (var transaction = StateManager.CreateTransaction())
             {
-                ConditionalValue<Client> client = await _clientDictionary!.TryGetValueAsync(transaction, userID);
+                ConditionalValue<Client> client = await _clientDictionary!.TryGetValueAsync(transaction, userID!);
 
 
-                if (!await Prepare(amount))
+                if (!await Prepare(amount!.Value))
                 {
                     return null!;
                 }
@@ -47,7 +47,7 @@ namespace BankService
                 var updatedClient = client.Value;
                 updatedClient.Balance -= amount;
 
-                await _clientDictionary.TryUpdateAsync(transaction, userID, updatedClient, client.Value);
+                await _clientDictionary.TryUpdateAsync(transaction, userID!, updatedClient, client.Value);
 
                 return await CompleteTransaction(transaction);
             }

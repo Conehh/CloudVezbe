@@ -2,12 +2,12 @@
 
 namespace Communication
 {
-    public interface IBookstore : IService, ITransaction
+    public interface IBookstore : IService
     {
         Task<List<string>> ListAvailableItems();
 
-        Task<string> EnlistPurchase(string bookID, uint count);
+        Task<string> EnlistPurchase(string? bookID, uint? count);
 
-        Task<string> GetItemPrice(string bookID);
+        Task<string> GetItemPrice(string? bookID);
     }
 }

@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Communication
 {
-    public interface IBank : IService, ITransaction
+    public interface IBank : IService
     {
         Task<List<string>> ListClients();
 
-        Task<string> EnlistMoneyTransfer(string userID, double amount);
+        Task<string> EnlistMoneyTransfer(string? userID, double? amount);
     }
 }

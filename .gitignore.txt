@@ -1,0 +1,60 @@
+# Ignore Visual Studio temporary files, build results, and
+# NuGet packages.
+**/bin/
+**/obj/
+**/TestResults/
+**/BuildArtifacts/
+
+# Service Fabric specific files
+*.sfproj.user
+*.sfproj.nuget.dgspec.json
+*.sfproj.nuget.g.props
+*.sfproj.nuget.g.targets
+
+# Publish profiles and user-specific configurations
+PublishProfiles/
+FabricArtifacts/
+
+# Service Fabric Local Cluster Data
+# Ignore local cluster data to prevent committing development environment data.
+Cluster/Data/
+Cluster/Log/
+Cluster/Nodetypes/
+
+# Ignore Azure specific files
+**/.azure/
+**/*.publishsettings
+ServiceFabricBackupStore/
+
+# Ignore dependency caches and logs
+node_modules/
+yarn.lock
+npm-debug.log*
+yarn-error.log
+
+# Ignore logs and other temporary files
+*.log
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore personal settings
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build artifacts from Docker
+Dockerfile
+docker-compose.*
+.docker/
+
+# Ignore generated resources and configuration
+appsettings.*.json
+local.settings.json
+
+# Ignore publish folders and auto-generated deployment files
+bin/Release/
+bin/Debug/
+Release/
+Debug/
