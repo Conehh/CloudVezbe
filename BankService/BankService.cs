@@ -89,12 +89,7 @@ namespace BankService
         }
         public async Task<bool> Prepare(object amount)
         {
-            if (!(amount is double doubleParameter))
-            {
-                return false;
-            }
-
-            return true;
+            return amount is double doubleParameter;
         }
 
         public async Task Commit(Microsoft.ServiceFabric.Data.ITransaction transaction)

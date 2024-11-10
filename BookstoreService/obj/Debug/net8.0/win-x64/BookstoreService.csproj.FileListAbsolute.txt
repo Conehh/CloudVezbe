@@ -1,0 +1,6 @@
+C:\Users\Nemanja\Desktop\CloudVezbe\BookstoreService\obj\Debug\net8.0\win-x64\BookstoreService.csproj.AssemblyReference.cache
+C:\Users\Nemanja\Desktop\CloudVezbe\BookstoreService\obj\Debug\net8.0\win-x64\BookstoreService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nemanja\Desktop\CloudVezbe\BookstoreService\obj\Debug\net8.0\win-x64\BookstoreService.AssemblyInfoInputs.cache
+C:\Users\Nemanja\Desktop\CloudVezbe\BookstoreService\obj\Debug\net8.0\win-x64\BookstoreService.AssemblyInfo.cs
+C:\Users\Nemanja\Desktop\CloudVezbe\BookstoreService\obj\Debug\net8.0\win-x64\BookstoreService.csproj.CoreCompileInputs.cache
+C:\Users\Nemanja\Desktop\CloudVezbe\BookstoreService\obj\Debug\net8.0\win-x64\BookstoreService.sourcelink.json
