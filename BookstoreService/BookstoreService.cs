@@ -12,6 +12,7 @@ using Microsoft.ServiceFabric.Data.Collections;
 using Microsoft.ServiceFabric.Services.Communication.Runtime;
 using Microsoft.ServiceFabric.Services.Remoting.Runtime;
 using Microsoft.ServiceFabric.Services.Runtime;
+using Newtonsoft.Json;
 
 namespace BookstoreService
 {
@@ -83,7 +84,7 @@ namespace BookstoreService
                 await CompleteTransaction(transaction);
             }
 
-            var bookNames = new List<string>();
+            var booksJson = new List<string>();
 
             using (var transaction = StateManager.CreateTransaction())
             {
@@ -92,11 +93,11 @@ namespace BookstoreService
                 while (await enumerator.MoveNextAsync(CancellationToken.None))
                 {
                     var book = enumerator.Current.Value;
-                    bookNames.Add(book.Name);
+                    booksJson.Add(JsonConvert.SerializeObject(book));
                 }
             }
 
-            return bookNames;
+            return booksJson;
         }
 
         public async Task Commit(Microsoft.ServiceFabric.Data.ITransaction transaction)

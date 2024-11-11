@@ -1,37 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\",
+  "WorkspaceRootPath": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA0E79FE-B460-49E7-BF5D-1E0E84C6DE4C}|BankService\\BankService.csproj|c:\\users\\nemanja\\desktop\\cloudvezbe\\bankservice\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA0E79FE-B460-49E7-BF5D-1E0E84C6DE4C}|BankService\\BankService.csproj|solutionrelative:bankservice\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10B5F574-E314-4E26-9E95-26FDB62F494F}|Client\\Client.csproj|c:\\users\\nemanja\\desktop\\programming\\cloudvezbe\\client\\controllers\\bookstorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10B5F574-E314-4E26-9E95-26FDB62F494F}|Client\\Client.csproj|solutionrelative:client\\controllers\\bookstorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|c:\\users\\nemanja\\desktop\\cloudvezbe\\communication\\itransactioncoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|solutionrelative:communication\\itransactioncoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10B5F574-E314-4E26-9E95-26FDB62F494F}|Client\\Client.csproj|c:\\users\\nemanja\\desktop\\programming\\cloudvezbe\\client\\views\\bookstore\\enlistpurchase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10B5F574-E314-4E26-9E95-26FDB62F494F}|Client\\Client.csproj|solutionrelative:client\\views\\bookstore\\enlistpurchase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|c:\\users\\nemanja\\desktop\\cloudvezbe\\communication\\ibank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|solutionrelative:communication\\ibank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10B5F574-E314-4E26-9E95-26FDB62F494F}|Client\\Client.csproj|c:\\users\\nemanja\\desktop\\programming\\cloudvezbe\\client\\views\\bookstore\\listavailableitems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10B5F574-E314-4E26-9E95-26FDB62F494F}|Client\\Client.csproj|solutionrelative:client\\views\\bookstore\\listavailableitems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94D919EC-96C7-4AF0-8C54-3DEEC41041F8}|BookstoreService\\BookstoreService.csproj|c:\\users\\nemanja\\desktop\\cloudvezbe\\bookstoreservice\\bookstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10B5F574-E314-4E26-9E95-26FDB62F494F}|Client\\Client.csproj|c:\\users\\nemanja\\desktop\\programming\\cloudvezbe\\client\\models\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10B5F574-E314-4E26-9E95-26FDB62F494F}|Client\\Client.csproj|solutionrelative:client\\models\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10B5F574-E314-4E26-9E95-26FDB62F494F}|Client\\Client.csproj|c:\\users\\nemanja\\desktop\\programming\\cloudvezbe\\client\\models\\enlistpurchaseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10B5F574-E314-4E26-9E95-26FDB62F494F}|Client\\Client.csproj|solutionrelative:client\\models\\enlistpurchaseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D919EC-96C7-4AF0-8C54-3DEEC41041F8}|BookstoreService\\BookstoreService.csproj|c:\\users\\nemanja\\desktop\\programming\\cloudvezbe\\bookstoreservice\\bookstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D919EC-96C7-4AF0-8C54-3DEEC41041F8}|BookstoreService\\BookstoreService.csproj|solutionrelative:bookstoreservice\\bookstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|c:\\users\\nemanja\\desktop\\cloudvezbe\\communication\\ibookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA0E79FE-B460-49E7-BF5D-1E0E84C6DE4C}|BankService\\BankService.csproj|c:\\users\\nemanja\\desktop\\programming\\cloudvezbe\\bankservice\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA0E79FE-B460-49E7-BF5D-1E0E84C6DE4C}|BankService\\BankService.csproj|solutionrelative:bankservice\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|c:\\users\\nemanja\\desktop\\programming\\cloudvezbe\\communication\\itransactioncoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|solutionrelative:communication\\itransactioncoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|c:\\users\\nemanja\\desktop\\programming\\cloudvezbe\\communication\\ibank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|solutionrelative:communication\\ibank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|c:\\users\\nemanja\\desktop\\programming\\cloudvezbe\\communication\\ibookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07EC30DC-8DB1-4CBE-9A44-9705D42EDF2B}|Communication\\Communication.csproj|solutionrelative:communication\\ibookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{204CD415-FFB6-40D2-B1C8-4EAD86E1D348}|Validation\\Validation.csproj|c:\\users\\nemanja\\desktop\\cloudvezbe\\validation\\packageroot\\servicemanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{204CD415-FFB6-40D2-B1C8-4EAD86E1D348}|Validation\\Validation.csproj|c:\\users\\nemanja\\desktop\\programming\\cloudvezbe\\validation\\packageroot\\servicemanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{204CD415-FFB6-40D2-B1C8-4EAD86E1D348}|Validation\\Validation.csproj|solutionrelative:validation\\packageroot\\servicemanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{204CD415-FFB6-40D2-B1C8-4EAD86E1D348}|Validation\\Validation.csproj|c:\\users\\nemanja\\desktop\\cloudvezbe\\validation\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{204CD415-FFB6-40D2-B1C8-4EAD86E1D348}|Validation\\Validation.csproj|c:\\users\\nemanja\\desktop\\programming\\cloudvezbe\\validation\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{204CD415-FFB6-40D2-B1C8-4EAD86E1D348}|Validation\\Validation.csproj|solutionrelative:validation\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF392E3-5E26-4FDD-928D-9602F4ACCBC5}|TransactionCoordinator\\TransactionCoordinator.csproj|c:\\users\\nemanja\\desktop\\cloudvezbe\\transactioncoordinator\\transactioncoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DF392E3-5E26-4FDD-928D-9602F4ACCBC5}|TransactionCoordinator\\TransactionCoordinator.csproj|c:\\users\\nemanja\\desktop\\programming\\cloudvezbe\\transactioncoordinator\\transactioncoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DF392E3-5E26-4FDD-928D-9602F4ACCBC5}|TransactionCoordinator\\TransactionCoordinator.csproj|solutionrelative:transactioncoordinator\\transactioncoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,109 +62,166 @@
       "DocumentGroups": [
         {
           "DockedWidth": 274,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ITransactionCoordinator.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\ITransactionCoordinator.cs",
-              "RelativeDocumentMoniker": "Communication\\ITransactionCoordinator.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\ITransactionCoordinator.cs",
-              "RelativeToolTip": "Communication\\ITransactionCoordinator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:59:34.913Z",
+              "DocumentIndex": 2,
+              "Title": "ListAvailableItems.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Client\\Views\\Bookstore\\ListAvailableItems.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\Bookstore\\ListAvailableItems.cshtml",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Client\\Views\\Bookstore\\ListAvailableItems.cshtml",
+              "RelativeToolTip": "Client\\Views\\Bookstore\\ListAvailableItems.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T20:25:57.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IBank.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\IBank.cs",
-              "RelativeDocumentMoniker": "Communication\\IBank.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\IBank.cs",
-              "RelativeToolTip": "Communication\\IBank.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:59:17.034Z",
+              "DocumentIndex": 1,
+              "Title": "EnlistPurchase.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Client\\Views\\Bookstore\\EnlistPurchase.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\Bookstore\\EnlistPurchase.cshtml",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Client\\Views\\Bookstore\\EnlistPurchase.cshtml",
+              "RelativeToolTip": "Client\\Views\\Bookstore\\EnlistPurchase.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T20:24:40.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IBookstore.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\IBookstore.cs",
-              "RelativeDocumentMoniker": "Communication\\IBookstore.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\IBookstore.cs",
-              "RelativeToolTip": "Communication\\IBookstore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAqAAAAAAAAAA==",
+              "Title": "EnlistPurchaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Client\\Models\\EnlistPurchaseViewModel.cs",
+              "RelativeDocumentMoniker": "Client\\Models\\EnlistPurchaseViewModel.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Client\\Models\\EnlistPurchaseViewModel.cs",
+              "RelativeToolTip": "Client\\Models\\EnlistPurchaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:53:58.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T20:23:48.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceManifest.xml",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Validation\\PackageRoot\\ServiceManifest.xml",
-              "RelativeDocumentMoniker": "Validation\\PackageRoot\\ServiceManifest.xml",
-              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Validation\\PackageRoot\\ServiceManifest.xml",
-              "RelativeToolTip": "Validation\\PackageRoot\\ServiceManifest.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-11-10T19:45:58.918Z",
+              "DocumentIndex": 3,
+              "Title": "BookViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Client\\Models\\BookViewModel.cs",
+              "RelativeDocumentMoniker": "Client\\Models\\BookViewModel.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Client\\Models\\BookViewModel.cs",
+              "RelativeToolTip": "Client\\Models\\BookViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:23:06.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookstoreController.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Client\\Controllers\\BookstoreController.cs",
+              "RelativeDocumentMoniker": "Client\\Controllers\\BookstoreController.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Client\\Controllers\\BookstoreController.cs",
+              "RelativeToolTip": "Client\\Controllers\\BookstoreController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:21:42.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "ITransactionCoordinator.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Communication\\ITransactionCoordinator.cs",
+              "RelativeDocumentMoniker": "Communication\\ITransactionCoordinator.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Communication\\ITransactionCoordinator.cs",
+              "RelativeToolTip": "Communication\\ITransactionCoordinator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T19:59:34.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBank.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Communication\\IBank.cs",
+              "RelativeDocumentMoniker": "Communication\\IBank.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Communication\\IBank.cs",
+              "RelativeToolTip": "Communication\\IBank.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T19:59:17.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBookstore.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Communication\\IBookstore.cs",
+              "RelativeDocumentMoniker": "Communication\\IBookstore.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Communication\\IBookstore.cs",
+              "RelativeToolTip": "Communication\\IBookstore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T19:53:58.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceManifest.xml",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Validation\\PackageRoot\\ServiceManifest.xml",
+              "RelativeDocumentMoniker": "Validation\\PackageRoot\\ServiceManifest.xml",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Validation\\PackageRoot\\ServiceManifest.xml",
+              "RelativeToolTip": "Validation\\PackageRoot\\ServiceManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-11-10T19:45:58.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "TransactionCoordinator.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\TransactionCoordinator\\TransactionCoordinator.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\TransactionCoordinator\\TransactionCoordinator.cs",
               "RelativeDocumentMoniker": "TransactionCoordinator\\TransactionCoordinator.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\TransactionCoordinator\\TransactionCoordinator.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\TransactionCoordinator\\TransactionCoordinator.cs",
               "RelativeToolTip": "TransactionCoordinator\\TransactionCoordinator.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAFYAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwFYAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T19:45:29.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Validation.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Validation\\Validation.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Validation\\Validation.cs",
               "RelativeDocumentMoniker": "Validation\\Validation.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Validation\\Validation.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Validation\\Validation.cs",
               "RelativeToolTip": "Validation\\Validation.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T19:45:23.519Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BookstoreService.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BookstoreService\\BookstoreService.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\BookstoreService\\BookstoreService.cs",
               "RelativeDocumentMoniker": "BookstoreService\\BookstoreService.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BookstoreService\\BookstoreService.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\BookstoreService\\BookstoreService.cs",
               "RelativeToolTip": "BookstoreService\\BookstoreService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwF8AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:44:26.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T19:44:26.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "BankService.cs",
-              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BankService\\BankService.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\BankService\\BankService.cs",
               "RelativeDocumentMoniker": "BankService\\BankService.cs",
-              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BankService\\BankService.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\BankService\\BankService.cs",
               "RelativeToolTip": "BankService\\BankService.cs",
               "ViewState": "AgIAAHAAAAAAAAAAAAAUwHAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:44:21.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T19:44:21.677Z"
             }
           ]
         }

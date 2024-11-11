@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1kyM+jYgX2I=",
+  "dgSpecHash": "Ktq85Jy2zTc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BookstoreService\\BookstoreService.csproj",
+  "projectFilePath": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\BookstoreService\\BookstoreService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nemanja\\.nuget\\packages\\microsoft.servicefabric\\10.1.2493\\microsoft.servicefabric.10.1.2493.nupkg.sha512",
     "C:\\Users\\Nemanja\\.nuget\\packages\\microsoft.servicefabric.data\\7.1.2493\\microsoft.servicefabric.data.7.1.2493.nupkg.sha512",
@@ -12,6 +12,7 @@
     "C:\\Users\\Nemanja\\.nuget\\packages\\microsoft.servicefabric.fabrictransport.internal\\7.1.2493\\microsoft.servicefabric.fabrictransport.internal.7.1.2493.nupkg.sha512",
     "C:\\Users\\Nemanja\\.nuget\\packages\\microsoft.servicefabric.services\\7.1.2493\\microsoft.servicefabric.services.7.1.2493.nupkg.sha512",
     "C:\\Users\\Nemanja\\.nuget\\packages\\microsoft.servicefabric.services.remoting\\7.1.2493\\microsoft.servicefabric.services.remoting.7.1.2493.nupkg.sha512",
+    "C:\\Users\\Nemanja\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Nemanja\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Nemanja\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.10\\microsoft.aspnetcore.app.runtime.win-x64.8.0.10.nupkg.sha512",
     "C:\\Users\\Nemanja\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.10\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.10.nupkg.sha512",

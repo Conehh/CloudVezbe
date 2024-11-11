@@ -1,1 +1,2 @@
 C:\Users\Nemanja\Desktop\CloudVezbe\CloudVezbe\obj\x64\Debug\CloudVezbe.sfproj.CoreCompileInputs.cache
+C:\Users\Nemanja\Desktop\Programming\CloudVezbe\CloudVezbe\obj\x64\Debug\CloudVezbe.sfproj.CoreCompileInputs.cache

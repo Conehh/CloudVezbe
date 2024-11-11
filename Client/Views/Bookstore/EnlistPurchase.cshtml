@@ -1,0 +1,36 @@
+﻿@model global::Client.Models.EnlistPurchaseViewModel
+
+@{
+    ViewData["Title"] = "Purchase";
+}
+
+<h1>Purchase</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="EnlistPurchase" asp-controller="Bookstore">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="BookID" class="control-label"></label>
+                <input asp-for="BookID" type="hidden" class="form-control" />
+                <span asp-validation-for="BookID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Count" class="control-label"></label>
+                <input asp-for="Count" class="form-control" min="1" />
+                <span asp-validation-for="Count" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Purchase" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

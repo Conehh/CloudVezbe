@@ -11,3 +11,16 @@ C:\Users\Nemanja\Desktop\CloudVezbe\Communication\obj\Debug\net8.0\Communication
 C:\Users\Nemanja\Desktop\CloudVezbe\Communication\obj\Debug\net8.0\refint\Communication.dll
 C:\Users\Nemanja\Desktop\CloudVezbe\Communication\obj\Debug\net8.0\Communication.pdb
 C:\Users\Nemanja\Desktop\CloudVezbe\Communication\obj\Debug\net8.0\ref\Communication.dll
+C:\Users\Nemanja\Desktop\Programming\CloudVezbe\Communication\bin\Debug\net8.0\Communication.deps.json
+C:\Users\Nemanja\Desktop\Programming\CloudVezbe\Communication\bin\Debug\net8.0\Communication.dll
+C:\Users\Nemanja\Desktop\Programming\CloudVezbe\Communication\bin\Debug\net8.0\Communication.pdb
+C:\Users\Nemanja\Desktop\Programming\CloudVezbe\Communication\obj\Debug\net8.0\Communication.csproj.AssemblyReference.cache
+C:\Users\Nemanja\Desktop\Programming\CloudVezbe\Communication\obj\Debug\net8.0\Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nemanja\Desktop\Programming\CloudVezbe\Communication\obj\Debug\net8.0\Communication.AssemblyInfoInputs.cache
+C:\Users\Nemanja\Desktop\Programming\CloudVezbe\Communication\obj\Debug\net8.0\Communication.AssemblyInfo.cs
+C:\Users\Nemanja\Desktop\Programming\CloudVezbe\Communication\obj\Debug\net8.0\Communication.csproj.CoreCompileInputs.cache
+C:\Users\Nemanja\Desktop\Programming\CloudVezbe\Communication\obj\Debug\net8.0\Communication.sourcelink.json
+C:\Users\Nemanja\Desktop\Programming\CloudVezbe\Communication\obj\Debug\net8.0\Communication.dll
+C:\Users\Nemanja\Desktop\Programming\CloudVezbe\Communication\obj\Debug\net8.0\refint\Communication.dll
+C:\Users\Nemanja\Desktop\Programming\CloudVezbe\Communication\obj\Debug\net8.0\Communication.pdb
+C:\Users\Nemanja\Desktop\Programming\CloudVezbe\Communication\obj\Debug\net8.0\ref\Communication.dll

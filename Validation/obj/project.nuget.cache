@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sK/URyEDwwE=",
+  "dgSpecHash": "PVyLqSslk84=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Validation\\Validation.csproj",
+  "projectFilePath": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Validation\\Validation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nemanja\\.nuget\\packages\\microsoft.servicefabric\\10.1.2493\\microsoft.servicefabric.10.1.2493.nupkg.sha512",
     "C:\\Users\\Nemanja\\.nuget\\packages\\microsoft.servicefabric.data\\7.1.2493\\microsoft.servicefabric.data.7.1.2493.nupkg.sha512",

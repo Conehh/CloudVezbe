@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BankService\\BankService.csproj": {}
+    "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\BankService\\BankService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BankService\\BankService.csproj": {
+    "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\BankService\\BankService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BankService\\BankService.csproj",
+        "projectUniqueName": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\BankService\\BankService.csproj",
         "projectName": "BankService",
-        "projectPath": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BankService\\BankService.csproj",
+        "projectPath": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\BankService\\BankService.csproj",
         "packagesPath": "C:\\Users\\Nemanja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\BankService\\obj\\",
+        "outputPath": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\BankService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nemanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\Communication.csproj": {
-                "projectPath": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\Communication.csproj"
+              "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Communication\\Communication.csproj": {
+                "projectPath": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Communication\\Communication.csproj"
               }
             }
           }
@@ -98,14 +98,14 @@
         }
       }
     },
-    "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\Communication.csproj": {
+    "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Communication\\Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\Communication.csproj",
+        "projectUniqueName": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Communication\\Communication.csproj",
         "projectName": "Communication",
-        "projectPath": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\Communication.csproj",
+        "projectPath": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Communication\\Communication.csproj",
         "packagesPath": "C:\\Users\\Nemanja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nemanja\\Desktop\\CloudVezbe\\Communication\\obj\\",
+        "outputPath": "C:\\Users\\Nemanja\\Desktop\\Programming\\CloudVezbe\\Communication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nemanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
